@@ -1,0 +1,17 @@
+#
+#                         TestPlugin Copyright MFDGaming
+#                 This file is licensed under the GPLv2 license.
+#              To use this file you must own a copy of the license.
+#                       If you do not you can get it from:
+#            http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
+
+name: TestPlugin
+description: Just a test plugin
+author: MFDGaming
+version: 1.0.0
+api:
+- 1.0.0
+main: mfdgaming.testplugin.TestPlugin
+commands:
+    banme:
+        description: Bans your self
